@@ -25,6 +25,6 @@ int main(int argc, char *argv[])
                  return x;
          } else {
                  printf("%d %d", x, y);
-                  return gcd(y, x % y);
+                 return gcd(y, x % y);
          }
  }
