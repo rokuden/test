@@ -21,10 +21,10 @@ int main(int argc, char *argv[])
  int gcd(int x, int y)
  {
          if (y == 0){
-                 printf("%d %d", x, y);
+                 printf("%d %d\n", x, y);
                  return x;
          } else {
-                 printf("%d %d", x, y);
+                 printf("%d %d\n", x, y);
                  return gcd(y, x % y);
          }
  }
